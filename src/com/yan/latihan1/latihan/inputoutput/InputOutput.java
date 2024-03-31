@@ -7,7 +7,7 @@ public class InputOutput {
     static void tryMethod(String flname){
     }
     //Method name
-    public static void tr(){
+    public static void io(){
         System.out.println("Welcome to Program!");
         String fname, lname;
         //Create a scanner object for user input

@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args){
         String fullName = getFullName();
         printFullname(fullName);
-        //trying.tr();
+        //trying.io();
         TodoList.todoList();
     }
 }
