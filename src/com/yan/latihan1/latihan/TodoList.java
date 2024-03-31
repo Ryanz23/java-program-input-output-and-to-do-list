@@ -44,7 +44,7 @@ public class TodoList {
                     break;
                 case 2:
                     if (tasks.isEmpty()) {
-                        System.out.println("No task~~ yet");
+                        System.out.println("No task yet");
                         break;
                     }
 
