@@ -3,27 +3,21 @@ package com.yan.latihan1.latihan.inputoutput;
 import java.util.Scanner;
 
 public class InputOutput {
-    //Static method with a single parameter
-    static void tryMethod(String flname){
-    }
     //Method name
     public static void io(){
-        System.out.println("Welcome to Program!");
-        String fname, lname;
-        //Create a scanner object for user input
-        Scanner myFname = new Scanner(System.in);
-        System.out.print("Enter First Name : ");
-        //Read the user input
-        fname = myFname.nextLine();
+        System.out.println("Input Output Sederhana");
 
-        Scanner myLname = new Scanner(System.in);
-        System.out.print("Enter Last Name : ");
-        //Read the user input
-        lname = myLname.nextLine();
+        Scanner scanner = new Scanner(System.in);
 
-        //Printing the fullname
-        System.out.print("Hello ");
-        System.out.println(fname + " " + lname);
+        System.out.print("Masukan Nama Depan: ");
+        String firstName = scanner.nextLine();
+
+        System.out.print("Masukan Nama Belakang: ");
+        String lastName = scanner.nextLine();
+
+        String fullName = firstName + lastName;
+
+        System.out.println("Halo " + fullName);
     }
 
 
