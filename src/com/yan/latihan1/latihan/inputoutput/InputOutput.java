@@ -15,7 +15,7 @@ public class InputOutput {
         System.out.print("Masukan Nama Belakang: ");
         String lastName = scanner.nextLine();
 
-        String fullName = firstName + lastName;
+        String fullName = firstName + " " + lastName;
 
         System.out.println("Halo " + fullName);
     }
