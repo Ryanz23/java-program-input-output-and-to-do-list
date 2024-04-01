@@ -12,6 +12,6 @@ public class Main {
 
 //        String fullName = getFullName();
 //        printFullname(fullName);
-//        TodoList.todoList();
+        TodoList.todoList();
     }
 }
