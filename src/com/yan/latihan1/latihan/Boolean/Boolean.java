@@ -1,4 +1,4 @@
-package com.yan.latihan1.latihan.operator;
+package com.yan.latihan1.latihan.Boolean;
 
 import java.util.Scanner;
 
