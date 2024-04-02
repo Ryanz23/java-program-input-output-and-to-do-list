@@ -13,9 +13,11 @@ public class Boolean {
         System.out.print("Input y : ");
         int y = scanner.nextInt();
 
+        //boolean data type
         boolean small = true;
         boolean big = false;
 
+        //Conditions that determine Boolean values
         if (x < y){
             System.out.println("The value is " + small);
         } else if (x > y) {
